@@ -1,0 +1,8 @@
+module CorbaApp
+{
+  interface ValuesGetter
+  {
+    string getValues(in long a);
+    oneway void shutdown();
+    };
+};
